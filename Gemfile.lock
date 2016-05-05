@@ -1,0 +1,26 @@
+GIT
+  remote: git://github.com/mikechau/apple_retail_store_part_availability.git
+  revision: 61728e5a2d6d6587f888650a62dee2a5abef95e9
+  specs:
+    apple_retail_store_part_availability (0.1.0)
+      httparty (~> 0.13.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  apple_retail_store_part_availability!
+  rake
+
+BUNDLED WITH
+   1.11.2
