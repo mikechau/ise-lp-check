@@ -34,7 +34,7 @@ task :check do
 
     Mail.deliver do
       to receiver
-      from 'noreply@example.com'
+      from 'noreply@ise-lp-check.herokuapp.com'
       subject '[ALERT]: There is an iPhone SE in Lincoln Park!'
       body JSON.pretty_generate(response)
     end
